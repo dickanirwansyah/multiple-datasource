@@ -1,0 +1,19 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: spring-multidatasource
+  jpa:
+    show-sql: true
+  users:
+    datasource:
+      url: jdbc:mysql://localhost:3306/orderdb?useSSL=false
+      username: root
+      password: Sepuluhempat1996
+      driverClassName: com.mysql.jdbc.Driver
+  book:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/dbshoping
+      username: postgres
+      password: root
+      driverClassName: org.postgresql.Driver
