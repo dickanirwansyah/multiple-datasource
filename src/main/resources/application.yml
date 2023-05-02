@@ -9,7 +9,7 @@ spring:
     datasource:
       url: jdbc:mysql://localhost:3306/orderdb?useSSL=false
       username: root
-      password: Sepuluhempat1996
+      password: root
       driverClassName: com.mysql.jdbc.Driver
   book:
     datasource:
